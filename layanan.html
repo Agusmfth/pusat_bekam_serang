@@ -18,6 +18,10 @@
     <!-- Icon Font Stylesheet -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -33,7 +37,26 @@
 </head>
 
 <body>
+    <style>
+        .watermark-center {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 120px;
+            /* Lebih besar dari sebelumnya */
+            color: #000;
+            opacity: 0.05;
+            /* Bisa dinaikkan jadi 0.08 kalau terlalu samar */
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 0;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 
+    <div class="watermark-center">BLITS.DEV 2025</div>
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -61,7 +84,7 @@
                     <a href="index.html" class="nav-item nav-link ">Home</a>
                     <a href="tentang.html" class="nav-item nav-link ">Tentang Kami</a>
                     <a href="layanan.html" class="nav-item nav-link active">Layanan Kami</a>
-                    <a href="artikel.html" class="nav-item nav-link ">Artikel</a>
+                    <!-- <a href="artikel.html" class="nav-item nav-link ">Artikel</a> -->
                     <a href="kontak.html" class="nav-item nav-link">Kontak Kami</a>
                 </div>
             </div>
@@ -71,9 +94,10 @@
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s"></h4>
+                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">LAYANAN KAMI</h4>
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="layanan.html">Tentang</a></li>
+                    <li class="breadcrumb-item"><a href="tentang.html">Tentang</a></li>
                     <li class="breadcrumb-item active text-primary">Layanan</li>
                 </ol>
             </div>
@@ -361,7 +385,7 @@
                 <!-- Paket 1 -->
                 <div class="testimonial-item bg-white rounded p-4 shadow">
                     <div class="text-center">
-                        <img src="img/promo-1.jpg" class="img-fluid rounded mb-3" alt="Promo 1">
+                        <img src="img/1.png" class="img-fluid rounded mb-3" alt="Promo 1">
                         <h4 class="text-primary">PAKET BEKAM & REFLEXY</h4>
                         <h5 class="text-success">Rp 140.000</h5>
                         <p class="text-muted mb-3">⏱ 60 Menit</p>
@@ -369,14 +393,15 @@
                             memberikan efek relaksasi.
                             Kombinasi Bekam (Blood, Dry, Scrape) dan Pijat Refleksi untuk menghilangkan kelelahan dan
                             nyeri otot secara maksimal..</p>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Pesan Sekarang</a>
+                        <a href="https://wa.me/6281234567890" class="btn btn-outline-primary rounded-pill px-4">Pesan
+                            Sekarang</a>
                     </div>
                 </div>
 
                 <!-- Paket 2 -->
                 <div class="testimonial-item bg-white rounded p-4 shadow">
                     <div class="text-center">
-                        <img src="img/promo-2.jpg" class="img-fluid rounded mb-3" alt="Promo 2">
+                        <img src="img/1.png" class="img-fluid rounded mb-3" alt="Promo 2">
                         <h4 class="text-primary">PAKET BEKAM & RUQYAH</h4>
                         <h5 class="text-success">Rp 145.000</h5>
                         <p class="text-muted mb-3">⏱ 60 Menit</p>
@@ -384,158 +409,198 @@
                             gangguan medis dan non-medis.
                             Kombinasi Bekam (Blood, Dry, Scrape) dan Ruqyah Syar’iyyah dengan ayat Al-Qur’an & Doa yang
                             Shahih.</p>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Pesan Sekarang</a>
+                        <a href="https://wa.me/6281234567890" class="btn btn-outline-primary rounded-pill px-4">Pesan
+                            Sekarang</a>
                     </div>
                 </div>
 
                 <!-- Paket 3 -->
                 <div class="testimonial-item bg-white rounded p-4 shadow">
                     <div class="text-center">
-                        <img src="img/promo-3.jpg" class="img-fluid rounded mb-3" alt="Promo 3">
+                        <img src="img/1.png" class="img-fluid rounded mb-3" alt="Promo 3">
                         <h4 class="text-primary">PAKET BEKAM, REFLEXY, RUQYAH</h4>
                         <h5 class="text-success">Rp 200.000</h5>
                         <p class="text-muted mb-3">⏱ 60 Menit</p>
-                        <p class="mb-3">Triple Input. Kombinasi penyembuhan medis, terapi saraf & relaksasi, serta penyembuhan non medis dari gangguan jin, sihir, & lain-lain.
+                        <p class="mb-3">Triple Input. Kombinasi penyembuhan medis, terapi saraf & relaksasi, serta
+                            penyembuhan non medis dari gangguan jin, sihir, & lain-lain.
                             Paket terbaik dan lengkap dari semua teknik pengobatan yang ada.</p>
-                        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Pesan Sekarang</a>
+                        <a href="https://wa.me/6281234567890" class="btn btn-outline-primary rounded-pill px-4">Pesan
+                            Sekarang</a>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-img">
-                                <img src="img/cek-kesehatan.jpg" class="img-fluid rounded-top w-100" alt="Cek Kesehatan">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- ======= Section Cek Kesehatan ======= -->
+    <section class="py-5 bg-light" id="cek-kesehatan">
+        <div class="container">
+            <!-- Judul Section -->
+            <div class="text-center mb-5">
+                <h2 class="text-primary fw-bold"><i class="bi bi-heart-pulse-fill me-2"></i>Layanan Cek Kesehatan</h2>
+                <p class="text-muted">Cek kesehatan cepat dan akurat dengan harga terjangkau</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <!-- Kartu Cek Kesehatan -->
+                <div class="col-md-8 col-lg-10 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item border shadow rounded bg-white">
+                        <div class="rounded-bottom p-4">
+                            <!-- Item: Cek Asam Urat -->
+                            <div class="mb-3 p-3 bg-body-tertiary rounded">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-1"><i class="bi bi-droplet-half me-2 text-danger"></i>Cek Asam
+                                            Urat</h6>
+                                        <small class="text-muted">Pemeriksaan kadar asam urat dalam darah</small>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="bg-light text-success fw-semibold px-3 py-1 rounded shadow-sm mb-2">
+                                            Rp 17.000</div>
+                                        <a class="btn btn-sm btn-outline-primary rounded-pill px-3"
+                                            href="https://wa.me/6281234567890">Pesan</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="rounded-bottom p-4">
-                                <!-- Judul Umum -->
-                                <h4 class="mb-3">CEK KESEHATAN</h4>
-                    
-                                <!-- Item: Cek Asam Urat -->
-                                <div class="mb-3">
-                                    <h6 class="mb-1">Cek Asam Urat</h6>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="bg-light text-success fw-bold px-3 py-2 rounded shadow-sm">Rp 17.000</div>
-                                        <a class="btn btn-outline-primary rounded-pill py-1 px-3" href="https://wa.me/6281234567890">Pesan</a>
+
+                            <!-- Item: Cek Gula Darah -->
+                            <div class="mb-3 p-3 bg-body-tertiary rounded">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-1"><i class="bi bi-thermometer-half text-warning"></i>Cek Gula
+                                            Darah</h6>
+                                        <small class="text-muted">Cek cepat kadar glukosa</small>
                                     </div>
-                                </div>
-                    
-                                <!-- Item: Cek Gula Darah -->
-                                <div class="mb-3">
-                                    <h6 class="mb-1">Cek Gula Darah</h6>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="bg-light text-success fw-bold px-3 py-2 rounded shadow-sm">Rp 5.000</div>
-                                        <a class="btn btn-outline-primary rounded-pill py-1 px-3" href="https://wa.me/6281234567890">Pesan</a>
-                                    </div>
-                                </div>
-                    
-                                <!-- Item: Cek Kolesterol -->
-                                <div>
-                                    <h6 class="mb-1">Cek Kolesterol</h6>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="bg-light text-success fw-bold px-3 py-2 rounded shadow-sm">Rp 33.000</div>
-                                        <a class="btn btn-outline-primary rounded-pill py-1 px-3" href="https://wa.me/6281234567890">Pesan</a>
+                                    <div class="text-end">
+                                        <div class="bg-light text-success fw-semibold px-3 py-1 rounded shadow-sm mb-2">
+                                            Rp 5.000</div>
+                                        <a class="btn btn-sm btn-outline-primary rounded-pill px-3"
+                                            href="https://wa.me/6281234567890">Pesan</a>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- Item: Cek Kolesterol -->
+                            <div class="p-3 bg-body-tertiary rounded">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="mb-1"><i class="bi bi-activity me-2 text-info"></i>Cek Kolesterol
+                                        </h6>
+                                        <small class="text-muted">Deteksi dini kadar kolesterol</small>
+                                    </div>
+                                    <div class="text-end">
+                                        <div class="bg-light text-success fw-semibold px-3 py-1 rounded shadow-sm mb-2">
+                                            Rp 33.000</div>
+                                        <a class="btn btn-sm btn-outline-primary rounded-pill px-3"
+                                            href="https://wa.me/6281234567890">Pesan</a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    
-                    <!-- Testimonial End -->
+                </div> <!-- /.col -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </section>
 
-                    <!-- Footer Start -->
-                    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-                        <div class="container py-5 border-start-0 border-end-0"
-                            style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
-                            <div class="row g-5">
+    <!-- Testimonial End -->
 
-                                <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <div class="footer-item">
-                                        <h4 class="text-white mb-4">MENU</h4>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> HOME</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> TENTANG</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> LAYANAN</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> ARTIKEL</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> KONTAK</a>
-                                    </div>
-                                </div>
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5 border-start-0 border-end-0"
+            style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+            <div class="row g-5">
 
-                                <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <div class="footer-item">
-                                        <h4 class="text-white mb-4">KONTAK KAMI</h4>
-                                        <div class="d-flex align-items-center">
-                                            <i class="fas fa-map-marker-alt text-primary me-3"></i>
-                                            <p class="text-white mb-0">Serang</p>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <i class="fas fa-envelope text-primary me-3"></i>
-                                            <p class="text-white mb-0">bekam@gmail.com</p>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <i class="fa fa-phone-alt text-primary me-3"></i>
-                                            <p class="text-white mb-0">08123456780</p>
-                                        </div>
-                                        <div class="d-flex">
-                                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                                    class="fab fa-facebook-f text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                                    class="fab fa-twitter text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                                    class="fab fa-instagram text-white"></i></a>
-                                            <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i
-                                                    class="fab fa-youtube-square text-white"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">MENU</h4>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> HOME</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> TENTANG</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> LAYANAN</a>
+                        <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> ARTIKEL</a> -->
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> KONTAK</a>
+                    </div>
+                </div>
 
-                                <div class="col-md-12 col-lg-12 col-xl-6">
-                                    <h4 class="text-white mb-4">LOKASI KAMI</h4>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.934464900826!2d-122.08424968469213!3d37.42206597982526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5f7f17d4f17%3A0xa20c81e2e17d2f20!2sGoogleplex!5e0!3m2!1sid!2sid!4v1689212345678!5m2!1sid!2sid"
-                                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-
-                            </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">KONTAK KAMI</h4>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                            <p class="text-white mb-0">Serang</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-envelope text-primary me-3"></i>
+                            <p class="text-white mb-0">bekam@gmail.com</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            <p class="text-white mb-0">082315955325</p>
+                        </div>
+                        <div class="d-flex">
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-twitter text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
+                                    class="fab fa-instagram text-white"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i
+                                    class="fab fa-youtube-square text-white"></i></a>
                         </div>
                     </div>
-                    <!-- Footer End -->
+                </div>
 
-                    <!-- Copyright Start -->
-                    <div class="container-fluid copyright py-4">
-                        <div class="container">
-                            <div class="row g-4 align-items-center">
-                                <div class="col-md-6 text-center text-md-start mb-md-0">
-                                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                                class="fas fa-copyright text-light me-2"></i>Blts.dev</a> All right
-                                        reserved.</span>
-                                </div>
+                <div class="col-md-12 col-lg-12 col-xl-6">
+                    <h4 class="text-white mb-4">LOKASI KAMI</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.934464900826!2d-122.08424968469213!3d37.42206597982526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5f7f17d4f17%3A0xa20c81e2e17d2f20!2sGoogleplex!5e0!3m2!1sid!2sid!4v1689212345678!5m2!1sid!2sid"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Copyright End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
-                    <a href="https://wa.me/6281234567890" class="floating-whatsapp" target="_blank"
-                        title="Hubungi Kami di WhatsApp">
-                        <i class="fab fa-whatsapp"></i> Hubungi Kami
-                    </a>
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body"><a href="#" class="border-bottom text-white"><i
+                                class="fas fa-copyright text-light me-2"></i>Blts.dev</a> All right
+                        reserved.</span>
+                </div>
 
-                    <!-- Back to Top -->
-                    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i
-                            class="fa fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <a href="https://wa.me/6281234567890" class="floating-whatsapp" target="_blank" title="Hubungi Kami di WhatsApp">
+        <i class="fab fa-whatsapp"></i> Hubungi Kami
+    </a>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
-                    <!-- JavaScript Libraries -->
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-                    <script src="lib/wow/wow.min.js"></script>
-                    <script src="lib/easing/easing.min.js"></script>
-                    <script src="lib/waypoints/waypoints.min.js"></script>
-                    <script src="lib/counterup/counterup.min.js"></script>
-                    <script src="lib/lightbox/js/lightbox.min.js"></script>
-                    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
 
-                    <!-- Template Javascript -->
-                    <script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
