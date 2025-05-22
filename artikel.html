@@ -33,7 +33,26 @@
 </head>
 
 <body>
+ <style>
+        .watermark-center {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 80px;
+            /* Lebih besar dari sebelumnya */
+            color: #000;
+            opacity: 0.05;
+            /* Bisa dinaikkan jadi 0.08 kalau terlalu samar */
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 0;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 
+    <div class="watermark-center">BLITS.DEV 2025</div>
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
