@@ -23,6 +23,12 @@
     z-index: 99;
 }
 
+::selection {
+  background: #00D084; /* warna latar saat diseleksi */
+  color: white;         /* warna teks saat diseleksi */
+}
+
+
 .floating-whatsapp {
   position: fixed;
   top: 50%;
