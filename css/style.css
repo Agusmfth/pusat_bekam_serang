@@ -26,7 +26,33 @@
 ::selection {
   background: #00D084; /* warna latar saat diseleksi */
   color: white;         /* warna teks saat diseleksi */
+}.card-custom {
+    border: 2px solid #ddd;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.dashed-line {
+    border-top: 2px dashed #999;
+    margin: 12px 0;
+}
+
 
 
 .floating-whatsapp {
