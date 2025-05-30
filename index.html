@@ -35,24 +35,26 @@
 
 <body>
 
-<style>
-    .watermark-center {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-30deg);
-        font-size: 80px; /* Lebih besar dari sebelumnya */
-        color: #000;
-        opacity: 0.05; /* Bisa dinaikkan jadi 0.08 kalau terlalu samar */
-        white-space: nowrap;
-        pointer-events: none;
-        z-index: 0;
-        font-weight: bold;
-        font-family: Arial, sans-serif;
-    }
-</style>
+    <style>
+        .watermark-center {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 80px;
+            /* Lebih besar dari sebelumnya */
+            color: #000;
+            opacity: 0.05;
+            /* Bisa dinaikkan jadi 0.08 kalau terlalu samar */
+            white-space: nowrap;
+            pointer-events: none;
+            z-index: 0;
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 
-<div class="watermark-center">BLITS.DEV 2025</div>
+    <div class="watermark-center">BLITS.DEV 2025</div>
 
     <!-- Spinner Start -->
     <div id="spinner"
@@ -74,7 +76,7 @@
                     BEKAM CENTRAL THERAPY
                 </h1>
             </a>
-            
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
@@ -241,7 +243,7 @@
                             <!-- Judul -->
                             <a href="#" class="h4 d-inline-block mb-2">BEKAM KEPALA</a>
 
-                            
+
                             <!-- Harga -->
                             <h5 class="text-success mb-3">⏱ 30 Menit</h5>
 
@@ -278,7 +280,7 @@
                                 bekam sambil menekan bagian permukaan kulit.</p>
 
                             <!-- Tombol -->
-                          <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                            <div class="d-flex justify-content-between align-items-center mt-3 px-2">
                                 <h4 class="fw-bold mb-0 text-dark">Rp. 57.000,-</h4>
                                 <a href="https://wa.me/6282315955325"
                                     class="btn btn-warning text-white fw-bold rounded-pill px-3 py-1"
@@ -304,7 +306,7 @@
     <div class="container-fluid feature pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h1 class="display-5 mb-4">MEMGAPA HARUS DI BEKAM CENTRAL THERAPY?</h1>
+                <h1 class="display-5 mb-4">MENGAPA HARUS DI BEKAM CENTRAL THERAPY?</h1>
                 <p class="mb-0">Bekam adalah Pengobatan yang diperintahkan sekaligus dicontohkan oleh baginda Rasullaah
                     SAW. Untuk mencegah dan mengobati berbagai penyakit
                 </p>
@@ -823,36 +825,51 @@
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item">
                         <h4 class="text-white mb-4">KONTAK KAMI</h4>
-                        <div class="d-flex align-items-center">
+
+                        <div class="d-flex align-items-center mb-2">
                             <i class="fas fa-map-marker-alt text-primary me-3"></i>
                             <p class="text-white mb-0">Serang</p>
                         </div>
-                        <div class="d-flex align-items-center">
+
+                        <div class="d-flex align-items-center mb-2">
                             <i class="fas fa-envelope text-primary me-3"></i>
-                            <p class="text-white mb-0">bekam@gmail.com</p>
+                            <a href="mailto:bekamcentraltherapy@gmail.com" class="text-white text-decoration-none mb-0">
+                                bekamcentraltherapy@gmail.com
+                            </a>
                         </div>
-                        <div class="d-flex align-items-center">
+
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fab fa-instagram text-primary me-3"></i>
+                            <a href="https://instagram.com/bekam_centraltherapy" target="_blank"
+                                class="text-white text-decoration-none mb-0">
+                                @bekam_centraltherapy
+                            </a>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="fab fa-facebook text-primary me-3"></i>
+                            <a href="https://facebook.com/bekamcentraltherapy" target="_blank"
+                                class="text-white text-decoration-none mb-0">
+                                Bekam Central Therapy
+                            </a>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-2">
                             <i class="fa fa-phone-alt text-primary me-3"></i>
-                            <p class="text-white mb-0">082315955325</p>
-                        </div>
-                        <div class="d-flex">
-                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                    class="fab fa-facebook-f text-white"></i></a>
-                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                    class="fab fa-twitter text-white"></i></a>
-                            <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i
-                                    class="fab fa-instagram text-white"></i></a>
-                            <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i
-                                    class="fab fa-youtube-square text-white"></i></a>
+                            <a href="https://wa.me/6282315955325" target="_blank"
+                                class="text-white text-decoration-none mb-0">
+                                0823 1595 5325
+                            </a>
                         </div>
                     </div>
                 </div>
 
+
                 <div class="col-md-12 col-lg-12 col-xl-6">
                     <h4 class="text-white mb-4">LOKASI KAMI</h4>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.934464900826!2d-122.08424968469213!3d37.42206597982526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5f7f17d4f17%3A0xa20c81e2e17d2f20!2sGoogleplex!5e0!3m2!1sid!2sid!4v1689212345678!5m2!1sid!2sid"
-                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.494844453273!2d106.32243237475005!3d-6.16192779382527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e421d007cf2b5c5%3A0x58d633488ea7e04b!2sBEKAM%20CENTRAL%20THERAPY!5e1!3m2!1sid!2sid!4v1748578961769!5m2!1sid!2sid"
+                        width="600" height="340" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
